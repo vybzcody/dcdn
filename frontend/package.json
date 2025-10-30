@@ -1,0 +1,23 @@
+{
+  "name": "dcdn-frontend",
+  "version": "0.1.0",
+  "description": "Frontend for the dCDN (Decentralized Content Delivery Network) application built on Linera",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx http-party/http-server --header Cross-Origin-Embedder-Policy:require-corp --header Cross-Origin-Opener-Policy:same-origin --port 3000",
+    "build": "echo 'Build completed'",
+    "install-client": "npm install @linera/client@0.15.3"
+  },
+  "dependencies": {
+    "@linera/client": "0.15.3"
+  },
+  "keywords": [
+    "linera",
+    "dcdn",
+    "decentralized",
+    "content-delivery",
+    "web3"
+  ],
+  "author": "dCDN Project",
+  "license": "Apache-2.0"
+}
