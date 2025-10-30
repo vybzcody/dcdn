@@ -1,0 +1,14 @@
+/target/
+**/*.rs.bk
+Cargo.lock
+.dapprc
+.soliumrc.json
+.solhint.json
+coverage/
+node_modules/
+*.csv
+*.log
+!.gitignore
+.DS_Store
+
+*.md
